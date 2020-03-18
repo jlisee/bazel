@@ -505,6 +505,13 @@ FOO is equal to bar!
   </pre>
 </p>
 
+<p><strong>Command line defined variables</strong></p>
+
+<p>
+  One the command you pass <a href="../command-line-reference.html#flag--define><code>--define=FOO=bar</code></a>
+  set the value of any variable.
+</p>
+
 #if (!$singlePage)
 #parse("com/google/devtools/build/docgen/templates/be/footer.vm")
 #end
